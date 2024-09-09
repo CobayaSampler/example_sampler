@@ -1,0 +1,23 @@
+[project]
+name = "example_sampler"
+version = "0.0.1"
+authors = [
+    { name = "Jesus Torrado" },
+    { name = "Antony Lewis" },
+]
+description = "Example for packaging/interfacing a sampler with Cobaya"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/CobayaSampler/example_sampler"
+Issues = "https://github.com/CobayaSampler/example_sampler/issues"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"

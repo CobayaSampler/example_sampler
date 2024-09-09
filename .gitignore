@@ -1,0 +1,30 @@
+# Backups
+*~
+\#*
+.\#*
+
+# OS-specific
+.directory
+
+# Python and packaging
+*.pyc
+*.egg-info/
+build/
+dist/
+__pycache__
+
+# Documentation
+docs/_*
+
+# Examples
+examples/runs/
+
+# Tests
+.pytest_cache
+.coverage*
+
+# IDE-specific
+.idea
+
+# pytest
+.cache
