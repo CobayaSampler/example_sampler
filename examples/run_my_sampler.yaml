@@ -9,7 +9,7 @@ params:
   b: [-1, 1]
 
 sampler:
-  example_sampler.MySampler:  # as [package_or_module.SamplerClass]
+  example_sampler:  # or 'example_sampler.MySampler'
     option: 1
     option_scale: 5d
 

@@ -11,4 +11,10 @@ If this code is installed as a Python package with ``pip``, it can be used in a 
       example_sampler.MySampler:
         # ...
 
+Or more simply, if you implement a trivial `get_cobaya_class()` function that is importable from the root of the package and returns the `MySampler` class (see `__init__.py`):
+
+    sampler:
+      example_sampler:
+        # ...
+
 To test it, run ``cobaya-run`` with the input files in the ``examples/`` folder.
